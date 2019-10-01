@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <script>
+    let nombre= window.prompt('¿Cómo te llamas?');
+    let respuesta_nombre = nombre;
+    console.log(respuesta_nombre);
+
+    let producto= window.prompt('¿Qué producto quieres comprar?');
+    let respuesta_pruducto=producto;
+    console.log(respuesta_pruducto);
+
+    let unidades= window.prompt('¿Cuántas unidades quieres comprar?');
+    let respuesta_unidades=unidades;
+    console.log(respuesta_unidades);
+    
+    </script>
+
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <style>
+    
+
+    header {
+        background-color:rgb(255, 244, 233);
+    }
+    #nombre_carpinteria{
+        color:dimgray;
+        font-family: 'Source Sans Pro', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        font-size: 50px;
+        
+    }
+
+    #logo{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0px 20px 0px;
+        align-items: center;
+        
+    }
+    #logo img {
+        width: 170px;
+    } 
+    #bienvenido {
+        color:olive;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #links li {
+        list-style: none;
+    }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+    <div id="logo">
+        <img src="logo-carpinteria.png" />
+    </div>
+        <p id="nombre_carpinteria">Carpintería Mazarredo</p>
+
+    </header>
+<div id="bienvenido">
+    <script>
+            document.write('<h1>Bienvenido '+ respuesta_nombre +'</h1>');
+     </script>
+ </div>
+
+ <footer>
+    
+    <div id="links">
+     <ol>
+         <li><a href="https://www.demaquinasyherramientas.com/herramientas-manuales/tipos-de-martillo" >Tipos de Martillo</a></li>
+         <li><a href="https://www.cronoshare.com/blog/consejos-basicos-de-carpinteria/"> Consejos para principiantes</a></li>
+         <li><a href="http://blogcerrajeria-somera.es/curiosidades-sobre-llaves-y-cerraduras/"> Curiosidades sobre llaves</a></li>
+     </ol>
+    </div>
+    
+    <div id="copyright"></div>
+    
+
+    &copy;
+     <p> 2019 Carpintería Mazarredo</p>
+    </div>
+
+ </footer>
+
+
+    
+</body>
+
+
+</html>
